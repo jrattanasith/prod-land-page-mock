@@ -44,7 +44,6 @@ ul.right{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .dot-1 {
@@ -64,6 +63,48 @@ ul.right{
     display: inline-block;
     padding: 5px;
   }
+
+#product-wrapper-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#product-display-div{
+    outline: 1px dotted red;
+}
+
+#product-description-div{
+    max-width: 25%;
+}
+
+#checkout-div{
+    outline: 1px dotted red;
+    max-width: 20%;
+}
+
+#checkout-div h2{
+    padding: 10px;
+    text-align: center;
+}
+
+#checkout-div p{
+    text-align: center;
+}
+
+#qty{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#add-btn{
+
+}
+
+#buy-btn{
+    
+}
 
 footer{
     display: inline;

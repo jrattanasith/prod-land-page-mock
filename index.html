@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="index.js"></script>
     <title>PS5 | Unofficial Online Store</title>
 </head>
 <body>
@@ -38,7 +39,15 @@
 <div id="product-wrapper-div">
 
 <div id="product-display-div">
-<img src="assets\ps5-1.png" alt="a playstation 5">
+    <div class="main_view">
+        <img src="one.jpg" id="main" alt="IMAGE">
+    </div>
+
+<div class="side_view">
+    <img class="prod-display" src="assets\ps5-1.png" id="main" alt="image" onclick="change(this.src)">
+    <img class="prod-display" src="assets\ps5-2.jpeg" id="main" alt="image" onclick="change(this.src)">
+    <img class="prod-display" src="assets\ps5-3.jpg" id="main" alt="image" onclick="change(this.src)">
+</div>
 </div>
 
 <div id="product-description-div">
@@ -48,9 +57,15 @@
     <h3>By Sony</h3>
     </div>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere rerum ut. Est aliquam quos temporibus aspernatur, reiciendis ea ab. Iusto ipsam voluptatum laborum dolorum explicabo asperiores, praesentium ut quis?</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere rerum ut. Est aliquam quos temporibus aspernatur, reiciendis ea ab. Iusto ipsam voluptatum laborum dolorum explicabo asperiores, praesentium ut quis?</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere rerum ut. Est aliquam quos temporibus aspernatur, reiciendis ea ab. Iusto ipsam voluptatum laborum dolorum explicabo asperiores, praesentium ut quis?</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere rerum ut. Est aliquam quos temporibus aspernatur, reiciendis ea ab. Iusto ipsam voluptatum laborum dolorum explicabo asperiores, praesentium ut quis?</p>
+    <div id="about-item">
+    <h4>About this Item</h4>
+    <ul>
+        <li>Embark on an epic and heartfelt journey alongside Kratos and Atreus with the PlayStation 5 Console – God of War Ragnarök Bundle.</li>
+        <li>Fully optimized for 3D Audio*: Immerse yourself in the unique soundscapes of the Nine Realms as sounds reverberate and echo throughout the environment. Use highly accurate spatial audio to hear enemies approaching from any direction, including above and below you. *3D audio with stereo headphones (analog or USB)</li>
+        <li>Bundle includes: PlayStation 5 console, DualSense Wireless Controller, Base, HDMI Cable, AC power cord, USB cable, God of War Ragnarok full game voucher </li>
+        <li>Stunning visuals: Bask in the beautiful worlds you travel through, brought to life by stunning art direction and arresting attention to detail. Behold enhanced reflections, lighting and shadows, as well as increased geometric detail and enhanced deformable snow.</li>
+    </ul>    
+    </div>
 </div>
 
 <div id="checkout-div">
@@ -60,11 +75,11 @@
     <p>In stock</p>
     
     <div id="add-btn">
-        <input type="submit" id="add" value="Add to Order" style="background-color:lightblue; border-color:white; color:black">
+        <input type="submit" id="add" value="Add to Order" style="background-color: #ffd814; border-color:white; color:black">
     </div>
 
     <div id="buy-btn">
-        <input type="submit" id="buy" value="Buy Now" style="background-color:lightblue; border-color:white; color:black">
+        <input type="submit" id="buy" value="Buy Now" style="background-color: #ffa41c; border-color:white; color:black">
     </div>
     
     <div id="qty">

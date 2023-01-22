@@ -68,10 +68,13 @@ ul.right{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+    padding-top: 25px
 }
 
 #product-display-div{
-    outline: 1px dotted red;
+    outline: 1px dotted black;
+    overflow: hidden;
+    padding: 10px;
 }
 
 #product-description-div{
@@ -79,8 +82,10 @@ ul.right{
 }
 
 #checkout-div{
-    outline: 1px dotted red;
     max-width: 20%;
+    outline: 1px dotted black;
+    padding: 10px;
+
 }
 
 #checkout-div h2{
@@ -110,6 +115,44 @@ justify-content: center;
 align-items: center;
 }
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+  
+.main_view {
+    width: 100%;
+    height: 25rem;
+}
+  
+.main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.side_view {
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    max-width: 100px;
+    max-height: 100px;
+}
+  
+.side_view img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.prod-display img{
+    display: flex;
+    max-width: 50px;
+    max-height: 50px;
+}
 footer{
     display: inline;
 }
